@@ -18,4 +18,4 @@ production:
   database: <%= ENV["DATABASE_NAME"] %>
   password: <%= ENV["DATABASE_PASSWORD"] %>
   adapter: postgresql
-  host: ec2-54-83-22-48.compute-1.amazonaws.com
+  host: ec2-54-225-94-145.compute-1.amazonaws.com
