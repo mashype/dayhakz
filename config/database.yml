@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: dayhakz_development
+  pool: 5
+  username: mashype
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: dayhakz_test
+  pool: 5
+  username: mashype
+  password:
+
+production:
+  database: <%= ENV["DATABASE_NAME"] %>
+  password: <%= ENV["DATABASE_PASSWORD"] %>
+  adapter: postgresql
+  host: ec2-54-83-22-48.compute-1.amazonaws.com
